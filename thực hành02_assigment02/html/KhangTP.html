@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Register</title>
+    <script src="../js/script.js"> </script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            Logo
+        </div>
+        <div class="mynav">
+            <a href="./Khang.html">Khang</a>
+            <a href="">Utilities</a>
+            <a href="">Share</a>
+            <a href="">Knowledge</a>
+            <a href="./KhangTP.html">KhangTP</a>
+            <a href="">Sign In</a>
+            <a href="">About Us</a>
+    </header>
+    <h1>
+        Register Form
+    </h1>
+
+    <hr width="30%" align="center">
+    <form onsubmit="return kiemtra();">
+        <div>Fullname:<input id="txtName" name="name" placeholder="Enter your full name" type="text" autofocus> </div>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+
+        <div>Address: <input type="text" name="address"  placeholder="enter your Address" id="txtAddress" autofocus></div>
+        <div>Email: <input  type="email" name="email"  placeholder="enter your email" id="txtMail" autofocus></div>
+        <div>Phone: <input  type="number" name="phone" placeholder="enter your phone number" id="txtPhone" autofocus>
+        </div>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="VietNam">VietNam</option>
+            <option value="Korea">Korea</option>
+            <option value="Japan">Japan</option>
+            <option value="Laos">Laos</option>
+            <option value="Cambodia">Cambodia</option>
+        </select>
+        <br>
+        <div class="actions">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+    </form>
+    <footer>
+        © 2020 By Me. All rights reserved
+    </footer>
+</body>
+
+</html>
